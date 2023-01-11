@@ -22,7 +22,7 @@ npm install
 npm start
 ```
 
-3. Test
+4. Test
 ```sh
 npm run test
 ```
