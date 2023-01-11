@@ -1,9 +1,7 @@
-import React from "react";
-import { render, screen } from "@testing-library/react";
-import App from "../../App";
-
-test("renders learn react link", (): void => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+import API from "./API";
+//  200 || 201 is the expected response from the API
+test("API testing", async () => {
+  const response = new API();
+  console.log(await response.api_method());
+  expect(await response.api_method()).toBe(200 || 201);
 });
