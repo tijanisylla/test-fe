@@ -1,4 +1,6 @@
 # Getting Started with React TypeScript :
+<img width="1421" alt="Screenshot 2023-01-11 at 12 44 45 PM" src="https://user-images.githubusercontent.com/60860764/211891627-6ef0fe2d-2476-464d-803f-270696ccaf10.png">
+
 
 ### Instructions to run the application.
 
@@ -76,7 +78,7 @@ import "./form.css";
 
 ```
 
-### Submit the form to the API endpoint..
+### Submit the form to the API endpoint.
 
 ```ts
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
