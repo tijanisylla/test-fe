@@ -52,7 +52,7 @@ import "./form.css";
 ```
 
 
-### I have build a webpage with a user creation and has the following required inputs:
+### User's inputs:
 
 - Full Name
 - Email
